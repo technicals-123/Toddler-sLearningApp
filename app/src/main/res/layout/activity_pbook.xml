@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/bookpg">
+
+    <Button
+        android:id="@+id/fruit"
+        android:layout_width="242dp"
+        android:layout_height="83dp"
+        android:backgroundTint="#2196F3"
+
+        android:fontFamily="@font/autour_one"
+        android:text="FRUITS"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:shapeAppearanceOverlay="@style/button" />
+
+    <Button
+        android:id="@+id/vegatables"
+        android:layout_width="242dp"
+        android:layout_height="83dp"
+        android:backgroundTint="#ED5728"
+        android:fontFamily="@font/autour_one"
+        android:text="VEGETABLES"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:shapeAppearanceOverlay="@style/button" />
+
+
+    <Button
+        android:id="@+id/flowers"
+        android:layout_width="242dp"
+        android:layout_height="83dp"
+        android:backgroundTint="#08F111"
+        android:fontFamily="@font/autour_one"
+        android:text="FLOWERS"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:shapeAppearanceOverlay="@style/button" />
+
+    <Button
+        android:id="@+id/birds"
+        android:layout_width="242dp"
+        android:layout_height="83dp"
+        android:backgroundTint="#8C2606"
+        android:fontFamily="@font/autour_one"
+        android:text="BIRDS"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:shapeAppearanceOverlay="@style/button" />
+
+    <Button
+        android:id="@+id/butterflies"
+        android:layout_width="242dp"
+        android:layout_height="83dp"
+        android:backgroundTint="#B207DA"
+        android:fontFamily="@font/autour_one"
+        android:text="BUTTERFLY"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:shapeAppearanceOverlay="@style/button" />
+
+    <Button
+        android:id="@+id/seaanimal"
+        android:layout_width="242dp"
+        android:layout_height="83dp"
+        android:backgroundTint="#788C06"
+        android:fontFamily="@font/autour_one"
+        android:text="WATER ANIMALS"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:shapeAppearanceOverlay="@style/button" />
+
+</LinearLayout>

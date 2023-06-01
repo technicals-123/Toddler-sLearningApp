@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/mainbgimg">
+
+
+    <Button
+        android:id="@+id/alpha"
+        android:layout_width="260dp"
+        android:layout_height="85dp"
+        android:drawableLeft="@drawable/abc"
+        android:fontFamily="@font/autour_one"
+        android:text="ALPHABETS"
+        android:textColor="@color/design_default_color_background"
+        android:textColorHighlight="@color/design_default_color_background"
+        android:textSize="24sp"
+        app:shapeAppearanceOverlay="@style/button4" />
+
+    <Button
+        android:id="@+id/game"
+        android:layout_width="260dp"
+        android:layout_height="85dp"
+        android:fontFamily="@font/autour_one"
+        android:text="GAME"
+        android:textSize="24sp"
+        android:drawableLeft="@drawable/game1"
+        app:shapeAppearanceOverlay="@style/button4" />
+
+
+
+    <Button
+        android:id="@+id/rhymes"
+        android:layout_width="260dp"
+        android:layout_height="85dp"
+        android:drawableLeft="@drawable/rhy"
+        android:fontFamily="@font/autour_one"
+        android:text="RHYMES"
+        android:textSize="24sp"
+        app:shapeAppearanceOverlay="@style/button4" />
+
+    <Button
+        android:id="@+id/painting"
+        android:layout_width="260dp"
+        android:layout_height="85dp"
+        android:fontFamily="@font/autour_one"
+        android:text="DRAWING"
+        android:textSize="24sp"
+        android:drawableLeft="@drawable/paint"
+        app:shapeAppearanceOverlay="@style/button4" />
+
+    <Button
+        android:id="@+id/colors"
+        android:layout_width="260dp"
+        android:layout_height="85dp"
+android:drawableLeft="@drawable/color"
+        android:fontFamily="@font/autour_one"
+        android:text="COLORS"
+        android:textSize="24sp"
+        app:shapeAppearanceOverlay="@style/button4" />
+
+    <Button
+        android:id="@+id/pbook"
+        android:layout_width="260dp"
+        android:layout_height="85dp"
+        android:drawableLeft="@drawable/book"
+        android:fontFamily="@font/autour_one"
+        android:text="PICTURE BOOK"
+        android:textSize="24sp"
+        app:shapeAppearanceOverlay="@style/button4" />
+</LinearLayout>
+

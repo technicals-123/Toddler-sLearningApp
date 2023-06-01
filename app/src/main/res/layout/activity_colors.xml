@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Colors">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:columnCount="2"
+        android:rowCount="5">
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+
+        <Button
+            android:id="@+id/red"
+            android:layout_columnWeight="1"
+            android:layout_height="200sp"
+            android:layout_margin="5sp"
+            android:onClick="playSound"
+            android:backgroundTint="@color/ChiliPepper"
+            android:text="RED"
+
+            android:textSize="24sp"
+            app:shapeAppearanceOverlay="@style/button"
+            />
+        <Button
+            android:id="@+id/blue"
+            android:layout_columnWeight="1"
+            android:layout_height="200sp"
+            android:layout_margin="5sp"
+            android:onClick="playSound"
+            android:backgroundTint="#2196F3"
+            android:text="BLUE"
+            android:textSize="24sp"
+            app:shapeAppearanceOverlay="@style/button"/>
+
+        <Button
+            android:id="@+id/orange"
+            android:layout_height="200sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5sp"
+            android:backgroundTint="#D3FF5722"
+            android:text="ORANGE"
+            android:onClick="playSound"
+            android:textSize="24sp"
+            app:shapeAppearanceOverlay="@style/button" />
+
+        <Button
+            android:id="@+id/black"
+            android:layout_height="200sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5sp"
+            android:onClick="playSound"
+            android:backgroundTint="#130101"
+            android:text="BLACK"
+            android:textColor="@color/white"
+
+            android:textSize="24sp"
+            app:shapeAppearanceOverlay="@style/button" />
+        <Button
+            android:id="@+id/pink"
+            android:layout_columnWeight="1"
+            android:layout_height="200sp"
+            android:layout_margin="5sp"
+            android:backgroundTint="#F7F13B99"
+            android:text="PINK"
+            android:onClick="playSound"
+            android:textSize="24sp"
+            app:shapeAppearanceOverlay="@style/button"/>
+        <Button
+            android:id="@+id/Yellow"
+            android:layout_columnWeight="1"
+            android:layout_height="200sp"
+            android:layout_margin="5sp"
+            android:backgroundTint="#FFEB3B"
+            android:text="Yellow"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:onClick="playSound"
+            app:shapeAppearanceOverlay="@style/button"/>
+        <Button
+            android:id="@+id/green"
+            android:layout_columnWeight="1"
+            android:layout_height="200sp"
+            android:layout_margin="5sp"
+            android:onClick="playSound"
+            android:backgroundTint="#0CE315"
+            android:text="GREEN"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            app:shapeAppearanceOverlay="@style/button"/>
+        <Button
+            android:id="@+id/brown"
+            android:layout_columnWeight="1"
+            android:layout_height="200sp"
+            android:layout_margin="5sp"
+            android:backgroundTint="#5E2E1F"
+            android:text="BROWN"
+            android:onClick="playSound"
+            android:textSize="24sp"
+            app:shapeAppearanceOverlay="@style/button"/>
+
+
+    </GridLayout>
+
+</ScrollView>

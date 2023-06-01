@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="button">
+        <item name="cornerSize">50%</item>
+        <item name="cornerFamily">cut</item>
+    </style>
+    <style name="button2">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="button3">
+        <item name="cornerSize">30%</item>
+    </style>
+    <style name="button4">
+        <item name="cornerSize">30%</item>
+        <item name="cornerFamily">cut</item>
+    </style>
+
+</resources>

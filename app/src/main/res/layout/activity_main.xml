@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/mainimg2">
+
+    <TextView
+        android:id="@+id/tvRedirectSignUp"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal"
+
+        android:text="WELCOME TO LEARNING"
+        android:textColor="#18206F"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/ChiliPepper"
+        android:text="GO"
+
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:shapeAppearanceOverlay="@style/button" />
+
+
+</LinearLayout>
+
+<!--        <EditText-->
+<!--            android:id="@+id/etEmailAddress"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:autofillHints="emailAddress"-->
+<!--            android:ems="10"-->
+<!--            android:hint="@string/prompt_email"-->
+<!--            android:inputType="textEmailAddress"-->
+<!--            android:minHeight="48dp"-->
+<!--            android:textColorHint="#757575" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/etPassword"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:autofillHints="password"-->
+<!--            android:ems="10"-->
+<!--            android:hint="@string/prompt_password"-->
+<!--            android:inputType="textPassword"-->
+<!--            android:minHeight="48dp"-->
+<!--            android:textColorHint="#757575" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnLogin"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="15dp"-->
+<!--            app:shapeAppearanceOverlay="@style/button"-->
+<!--            android:backgroundTint="@color/Pink"-->
+
+<!--            android:text="login" />-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvRedirectSignUp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:fontFamily="serif-monospace"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:text="HAPPY LEARNING"-->
+
+<!--            android:textColor="#18206F"-->
+<!--            android:textSize="24sp"-->
+<!--            android:textStyle="bold" />-->
+
+
+
+
+
+

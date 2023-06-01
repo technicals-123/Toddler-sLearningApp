@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/rhymes">
+
+
+    <Button
+        android:id="@+id/bitsofpaper"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:text="BITS OF PAPER"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/design_default_color_background"
+        android:textSize="24sp"
+        app:shapeAppearanceOverlay="@style/button3"/>
+
+    <Button
+        android:id="@+id/jackandjill"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8C2606"
+        android:text="JACK AND JILL"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:shapeAppearanceOverlay="@style/button3"/>
+
+
+    <Button
+        android:id="@+id/humpty_dumpty"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F8EA6136"
+        android:text="HUMPTY DUMPTY"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:shapeAppearanceOverlay="@style/button3"/>
+
+    <Button
+        android:id="@+id/rainrain"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:text="RAIN RAIN GO AWAY"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:shapeAppearanceOverlay="@style/button3"/>
+
+    <Button
+        android:id="@+id/littlemonkey"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFC107"
+        android:text="5 LITTLE MONKEY"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:shapeAppearanceOverlay="@style/button3"/>
+</LinearLayout>

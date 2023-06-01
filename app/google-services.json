@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "101623550438",
+    "project_id": "my-application-bada6",
+    "storage_bucket": "my-application-bada6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101623550438:android:0eaec905e2324eda150627",
+        "android_client_info": {
+          "package_name": "com.example.loginandregistration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101623550438-sn5thi9k8n0e94cavictbn57c783102h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-vRc9RuFrHje3WvTlJkFTBfiNGjkOnM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101623550438-sn5thi9k8n0e94cavictbn57c783102h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101623550438:android:6f71eb951607ee5d150627",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101623550438-sn5thi9k8n0e94cavictbn57c783102h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-vRc9RuFrHje3WvTlJkFTBfiNGjkOnM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101623550438-sn5thi9k8n0e94cavictbn57c783102h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101623550438:android:de99ae123f12201b150627",
+        "android_client_info": {
+          "package_name": "com.example.toddlerslearningapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101623550438-sn5thi9k8n0e94cavictbn57c783102h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-vRc9RuFrHje3WvTlJkFTBfiNGjkOnM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101623550438-sn5thi9k8n0e94cavictbn57c783102h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
